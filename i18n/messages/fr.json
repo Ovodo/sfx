@@ -1,0 +1,52 @@
+{
+  "common": {
+    "live": "En direct",
+    "notifications": "Notifications",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "sidebar": {
+    "payments": "Paiements",
+    "transactions": "Transactions",
+    "customers": "Clients",
+    "disputes": "Litiges",
+    "payouts": "Versements",
+    "balances": "Soldes",
+    "subscriptions": "Abonnements",
+    "paymentPlans": "Plans de paiement",
+    "commerce": "Commerce",
+    "orders": "Commandes",
+    "inventory": "Inventaire",
+    "products": "Produits",
+    "referrals": "Références",
+    "auditLogs": "Journaux d'audit",
+    "settings": "Paramètres"
+  },
+  "dashboard": {
+    "greeting": "👋 Salut Martins!",
+    "earnings": "Vous avez gagné 3 000 000 NGN ce mois-ci.",
+    "lastDays": "30 derniers jours"
+  },
+  "charts": {
+    "successRate": "Taux de réussite",
+    "paymentIssues": "Problèmes de paiement",
+    "unsuccessful": "Échec",
+    "successful": "Réussi",
+    "totalErrors": "Nombre total d'erreurs:"
+  },
+  "paymentErrors": {
+    "customerErrors": "Erreurs client",
+    "fraudBlocks": "Blocages de fraude",
+    "bankErrors": "Erreurs bancaires",
+    "systemErrors": "Erreurs système"
+  },
+  "rightPanel": {
+    "stats": "Statistiques",
+    "messages": "Messages",
+    "totalRevenue": "Revenu total",
+    "activeUsers": "Utilisateurs actifs",
+    "transactions": "Transactions",
+    "successRate": "Taux de réussite"
+  }
+}

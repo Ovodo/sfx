@@ -1,0 +1,52 @@
+{
+  "common": {
+    "live": "Canlı",
+    "notifications": "Bildirimler",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "logout": "Çıkış"
+  },
+  "sidebar": {
+    "payments": "Ödemeler",
+    "transactions": "İşlemler",
+    "customers": "Müşteriler",
+    "disputes": "Anlaşmazlıklar",
+    "payouts": "Ödemeler",
+    "balances": "Bakiyeler",
+    "subscriptions": "Abonelikler",
+    "paymentPlans": "Ödeme planları",
+    "commerce": "Ticaret",
+    "orders": "Siparişler",
+    "inventory": "Envanter",
+    "products": "Ürünler",
+    "referrals": "Yönlendirmeler",
+    "auditLogs": "Denetim kayıtları",
+    "settings": "Ayarlar"
+  },
+  "dashboard": {
+    "greeting": "👋 Merhaba Martins!",
+    "earnings": "Bu ay 3.000.000 NGN kazandınız.",
+    "lastDays": "Son 30 gün"
+  },
+  "charts": {
+    "successRate": "Başarı oranı",
+    "paymentIssues": "Ödeme sorunları",
+    "unsuccessful": "Başarısız",
+    "successful": "Başarılı",
+    "totalErrors": "Toplam hata sayısı:"
+  },
+  "paymentErrors": {
+    "customerErrors": "Müşteri hataları",
+    "fraudBlocks": "Dolandırıcılık blokları",
+    "bankErrors": "Banka hataları",
+    "systemErrors": "Sistem hataları"
+  },
+  "rightPanel": {
+    "stats": "İstatistikler",
+    "messages": "Mesajlar",
+    "totalRevenue": "Toplam Gelir",
+    "activeUsers": "Aktif Kullanıcılar",
+    "transactions": "İşlemler",
+    "successRate": "Başarı Oranı"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "common": {
+    "live": "Live",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "sidebar": {
+    "payments": "Payments",
+    "transactions": "Transactions",
+    "customers": "Customers",
+    "disputes": "Disputes",
+    "payouts": "Payouts",
+    "balances": "Balances",
+    "subscriptions": "Subscriptions",
+    "paymentPlans": "Payment plans",
+    "commerce": "Commerce",
+    "orders": "Orders",
+    "inventory": "Inventory",
+    "products": "Products",
+    "referrals": "Referrals",
+    "auditLogs": "Audit logs",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "greeting": "👋 Hey Martins!",
+    "earnings": "You earned NGN 3,000,000 this month.",
+    "lastDays": "Last 30 days"
+  },
+  "charts": {
+    "successRate": "Success rate",
+    "paymentIssues": "Payment issues",
+    "unsuccessful": "Unsuccessful",
+    "successful": "Successful",
+    "totalErrors": "Total number of errors:"
+  },
+  "paymentErrors": {
+    "customerErrors": "Customer errors",
+    "fraudBlocks": "Fraud blocks",
+    "bankErrors": "Bank errors",
+    "systemErrors": "System errors"
+  },
+  "rightPanel": {
+    "stats": "Stats",
+    "messages": "Messages",
+    "totalRevenue": "Total Revenue",
+    "activeUsers": "Active Users",
+    "transactions": "Transactions",
+    "successRate": "Success Rate"
+  }
+}

@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SFx Dashboard
 
-## Getting Started
+A payment analytics dashboard built with Next.js, reproducing the Figma design with pixel-perfect accuracy and multi-language support.
 
-First, run the development server:
+## 🚀 Live Demo
+
+[View Live Demo](your-demo-url-here)
+
+## 📋 Features
+
+- **Interactive Charts** - Bar charts and donut charts for payment analytics using Recharts
+- **Multi-language Support** - English, French, Spanish, and Turkish with automatic translation
+- **Collapsible Sidebar** - Expandable sections for Payments and Commerce
+- **Tab Animations** - Smooth transitions between Stats and Messages in the right panel
+
+## 🛠️ Technologies Used
+
+- **Framework**: Next.js 16.0.1 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Charts**: Recharts 3.4.1
+- **Animations**: Framer Motion 12.23.24
+- **Internationalization**: next-intl 4.5.0
+- **Package Manager**: Bun
+- **Fonts**: Montserrat
+
+## 📦 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd sfx
+   ```
+
+2. **Install dependencies**
+   ```bash
+   bun install
+   ```
+
+3. **Run the development server**
+   ```bash
+   bun dev
+   ```
+
+4. **Open in browser**
+   ```
+   http://localhost:3000
+   ```
+
+## 🏗️ Build for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun run build
+bun start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌍 Language Support
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The app supports 4 languages:
+- English (en)
+- French (fr)
+- Spanish (es)
+- Turkish (tr)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Language selection is persisted via cookies and all content is automatically translated.
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+├── components/
+│   ├── Sidebar.tsx        # Navigation with collapsible sections
+│   ├── Topbar.tsx         # Search, language switcher, user menu
+│   ├── BarChart.tsx       # Monthly earnings chart
+│   ├── Donut.tsx          # Success rate visualization
+│   ├── StatCards.tsx      # Success rate & payment issues cards
+│   └── RightPanel.tsx     # Stats/Messages tabbed panel
+├── hooks/
+│   └── useChangeLocale.ts # Language switching hook
+├── layout.tsx             # Root layout with i18n provider
+├── page.tsx               # Main dashboard layout
+└── globals.css            # Global styles and Tailwind config
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+i18n/
+├── messages/              # Translation files for all languages
+│   ├── en.json
+│   ├── fr.json
+│   ├── es.json
+│   └── tr.json
+└── request.ts             # next-intl configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+public/
+└── icons/                 # SVG icons for navigation
+```
 
-## Deploy on Vercel
+## 🎨 Design Implementation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The dashboard faithfully reproduces the [Figma design](https://www.figma.com/design/lny02vDjo41foboGAyEOv9/SFx-Frontend-Task?node-id=0-1&p=f&t=kuR5zDBgUZ8hZBs3-0) with:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Custom color palette (--color-ash: #828282, --color-primary: violet)
+- Exact spacing and typography from design specs
+- Dashed gridlines on bar charts
+- Rounded donut charts with clockwise progression
+- Payment issue badges with color coding
+- Smooth animations and transitions
+
+## 📝 Assumptions Made
+
+
+1. **Chart Data**: Sample data used for demonstration; real API integration would replace static data
+2. **User Authentication**: User menu items are presentational; authentication not implemented
+3. **Search Functionality**: Search input is UI-only; actual search logic not implemented
+4. **Live Toggle**: Toggle state is visual; backend integration needed for real-time data
+5. **Responsive Design**: Optimized for desktop; mobile breakpoints can be added as needed
+6. **Browser Support**: Modern browsers with ES6+ support assumed
+
+## 📄 License
+
+This project was created as a frontend task submission.
