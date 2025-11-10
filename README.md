@@ -4,7 +4,7 @@ A payment analytics dashboard built with Next.js, reproducing the Figma design w
 
 ## 🚀 Live Demo
 
-[View Live Demo](your-demo-url-here)
+[View Live Demo](https://sfx-xi.vercel.app/)
 
 ## 📋 Features
 
